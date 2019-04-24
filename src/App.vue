@@ -1,22 +1,20 @@
 <template>
-  <div id="app">
-    <section class="hero is-dark is-large is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <img alt="Vue logo" src="./assets/goblinslayer.png">
-          <h2 class="subtitle">
-            Un juego hack'n'slash donde te enfrentarás a muchos goblins, ¿te atreves?
-          </h2>
-        </div>
-      </div>
-    </section>
+	<div id="app">
+		<section class="hero is-dark is-large is-bold">
+			<div class="hero-body">
+				<div class="container">
+					<img alt="Vue logo" src="./assets/goblinslayer.png">
+					<h2 class="subtitle">
+						Un juego hack'n'slash donde te enfrentarás a muchos goblins, ¿te atreves?
+					</h2>
+				</div>
+			</div>
+		</section>
 
-    <Story />
-    <Downloads />
-    <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/> -->
-
-    <Footer />
-  </div>
+		<Story />
+		<Downloads />
+		<Footer />
+	</div>
 </template>
 
 <script lang="ts">
@@ -27,12 +25,12 @@ import Downloads from './components/Downloads.vue';
 import Footer from './components/Footer.vue';
 
 @Component({
-  components: {
-    Story,
-    Downloads,
-    Footer,
-    // HelloWorld,
-  },
+	components: {
+		Story,
+		Downloads,
+		Footer,
+		// HelloWorld,
+	}
 })
 export default class App extends Vue {}
 </script>
@@ -44,21 +42,21 @@ $footer-background-color: $grey-darker;
 @import "~bulma/sass/layout/footer";
 
 a {
-  color: $blue;
+	color: $blue;
 }
 
 a:hover {
-  color: $cyan;
+	color: $cyan;
 }
 </style>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 0px;
+	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: #2c3e50;
+	margin-top: 0px;
 }
 </style>
