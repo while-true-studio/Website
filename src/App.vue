@@ -12,6 +12,7 @@
     </section>
 
     <Story />
+    <Downloads />
     <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/> -->
 
     <Footer />
@@ -22,11 +23,13 @@
 import { Component, Vue } from 'vue-property-decorator';
 // import HelloWorld from './components/HelloWorld.vue';
 import Story from './components/Story.vue';
+import Downloads from './components/Downloads.vue';
 import Footer from './components/Footer.vue';
 
 @Component({
   components: {
     Story,
+    Downloads,
     Footer,
     // HelloWorld,
   },
