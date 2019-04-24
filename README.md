@@ -1,4 +1,6 @@
-# site
+# GoblinSlayer Website
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3006a33f-de13-4d21-9d8c-ed49627925db/deploy-status)](https://app.netlify.com/sites/goblinslayer/deploys)
 
 ## Project setup
 ```

@@ -6,18 +6,18 @@
 				<p>No downloads available.</p>
 			</div>
 			<div v-else>
-				<div v-for="release in releases" class="tile is-parent has-text-left">
+				<div v-for="release in releases" :key="release.id" class="tile is-parent has-text-left">
 					<article class="tile is-child notification is-light">
 						<p class="title">{{release.name}}</p>
 						<div class="content">
-							<p v-for="line in release.body">{{line}}</p>
+							<p v-for="line in release.body" :key="release.body.indexOf(line)">{{line}}</p>
 							<div class="field is-grouped">
 								<p class="control">
 									<a :href="release.zipball_url" class="button is-info is-outlined">
 										Código
 									</a>
 								</p>
-								<p class="control" v-for="asset in release.assets">
+								<p class="control" v-for="asset in release.assets" :key="asset.id">
 									<a :href="asset.browser_download_url" class="button is-dark is-outlined">
 										{{asset.name}}
 									</a>
@@ -51,7 +51,7 @@ export default class Downloads extends Vue {
 				this.releases.push(release);
 			}
 		} catch {
-			this.releases.length = 0;
+			while (this.releases.length) this.releases.shift();
 		}
 	}
 }
