@@ -14,6 +14,7 @@
 					</div>
 				</div>
 			</article>
+			<hr>
 		</div>
 	</section>
 </template>

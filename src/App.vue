@@ -20,10 +20,11 @@
 		<TeamMember imageSRC="Members/Oscar.jpg" name="Óscar Fernández"
 			description="Un diseñador en proceso (con espíritu de ingeniero). Aparte me gusta el Freestyle. De todo tipo. Dame un palo de golf por ejemplo y me hago un mortal."/>
 		<TeamMember imageSRC="Members/Borja.jpg" name="Borja Cano"
-			description="Sé tocar la guitarra y hago un pisto que te cagas."/>
+			description="TBD."/>
 		<TeamMember imageSRC="Members/Antonio.jpg" name="Antonio Román"
 			description="Amante de la música y de la programación, literalmente hice un proyecto de 3 meses en 3 días."/>
-		<hr>
+		<TeamMember imageSRC="Members/Anass.jpg" name="Anass Carreau"
+			description="TBD."/>
 		<Footer />
 	</div>
 </template>
