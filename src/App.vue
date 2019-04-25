@@ -13,6 +13,17 @@
 
 		<Story />
 		<Downloads />
+
+		<h1 class="title">Equipo</h1>
+		<TeamMember imageSRC="Members/Stiven.jpg" name="Stiven Arias"
+			description="Amante de la filosofía y de la buena compañía. Friki incondicional y emprendedor de sueños locos."/>
+		<TeamMember imageSRC="Members/Oscar.jpg" name="Óscar Fernández"
+			description="Un diseñador en proceso (con espíritu de ingeniero). Aparte me gusta el Freestyle. De todo tipo. Dame un palo de golf por ejemplo y me hago un mortal."/>
+		<TeamMember imageSRC="Members/Borja.jpg" name="Borja Cano"
+			description="Sé tocar la guitarra y hago un pisto que te cagas."/>
+		<TeamMember imageSRC="Members/Antonio.jpg" name="Antonio Román"
+			description="Amante de la música y de la programación, literalmente hice un proyecto de 3 meses en 3 días."/>
+		<hr>
 		<Footer />
 	</div>
 </template>
@@ -23,11 +34,13 @@ import { Component, Vue } from 'vue-property-decorator';
 import Story from './components/Story.vue';
 import Downloads from './components/Downloads.vue';
 import Footer from './components/Footer.vue';
+import TeamMember from './components/TeamMember.vue';
 
 @Component({
 	components: {
 		Story,
 		Downloads,
+		TeamMember,
 		Footer,
 		// HelloWorld,
 	}
