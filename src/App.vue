@@ -15,16 +15,18 @@
 		<Downloads />
 
 		<h1 class="title">Equipo</h1>
-		<TeamMember imageSRC="Members/Stiven.jpg" name="Stiven Arias"
-			description="Amante de la filosofía y de la buena compañía. Friki incondicional y emprendedor de sueños locos."/>
-		<TeamMember imageSRC="Members/Oscar.jpg" name="Óscar Fernández"
-			description="Un diseñador en proceso (con espíritu de ingeniero). Aparte me gusta el Freestyle. De todo tipo. Dame un palo de golf por ejemplo y me hago un mortal."/>
-		<TeamMember imageSRC="Members/Borja.jpg" name="Borja Cano"
-			description="TBD."/>
+		<TeamMember imageSRC="Members/Amaro.jpg" name="Amaro Blest"
+			description="Me encantan los raycast y contemplar la luna llena. Anass tráeme un café con leche de soja y templado, por favor. PAZ."/>
+		<TeamMember imageSRC="Members/Anass.jpg" name="Anass Carreau"
+			description="Apasionado por la música el deporte y los videojuegos. Me gusta ayudar a las personas aunque no sepa ni ayudarme. Traigo el disco duro en vez de subirlo al Git."/>
 		<TeamMember imageSRC="Members/Antonio.jpg" name="Antonio Román"
 			description="Amante de la música y de la programación, literalmente hice un proyecto de 3 meses en 3 días."/>
-		<TeamMember imageSRC="Members/Anass.jpg" name="Anass Carreau"
-			description="Apasionado  por la música el deporte y los videojuegos. Me gusta ayudar a las personas aunque no sepa ni ayudarme. Traigo el disco duro en vez de subirlo al Git."/>
+		<TeamMember imageSRC="Members/Borja.jpg" name="Borja Cano"
+			description="Programo motores de videojuegos, a veces uso otros de otras personas más listas, pero lo importante es ser buena gente."/>
+		<TeamMember imageSRC="Members/Oscar.jpg" name="Óscar Fernández"
+			description="Un diseñador en proceso (con espíritu de ingeniero). Aparte me gusta el Freestyle. De todo tipo. Dame un palo de golf por ejemplo y me hago un mortal."/>
+		<TeamMember imageSRC="Members/Stiven.jpg" name="Stiven Arias"
+			description="Amante de la filosofía y de la buena compañía. Friki incondicional y emprendedor de sueños locos."/>
 		<Footer />
 	</div>
 </template>
