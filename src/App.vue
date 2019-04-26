@@ -24,7 +24,7 @@
 		<TeamMember imageSRC="Members/Antonio.jpg" name="Antonio Román"
 			description="Amante de la música y de la programación, literalmente hice un proyecto de 3 meses en 3 días."/>
 		<TeamMember imageSRC="Members/Anass.jpg" name="Anass Carreau"
-			description="TBD."/>
+			description="Apasionado  por la música el deporte y los videojuegos. Me gusta ayudar a las personas aunque no sepa ni ayudarme. Traigo el disco duro en vez de subirlo al Git."/>
 		<Footer />
 	</div>
 </template>
