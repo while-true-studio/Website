@@ -12,6 +12,7 @@
 		</section>
 
 		<Story />
+		<Trailer url="https://www.youtube.com/embed/vK8fVPGnC_0"/>
 		<Downloads />
 
 		<h1 class="title">Equipo</h1>
@@ -35,6 +36,7 @@
 import { Component, Vue } from 'vue-property-decorator';
 // import HelloWorld from './components/HelloWorld.vue';
 import Story from './components/Story.vue';
+import Trailer from './components/Trailer.vue';
 import Downloads from './components/Downloads.vue';
 import Footer from './components/Footer.vue';
 import TeamMember from './components/TeamMember.vue';
@@ -42,6 +44,7 @@ import TeamMember from './components/TeamMember.vue';
 @Component({
 	components: {
 		Story,
+		Trailer,
 		Downloads,
 		TeamMember,
 		Footer,
